@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferencesView" customModule="CoronavirusTicker" customModuleProvider="target">
+            <connections>
+                <outlet property="regionsPopup" destination="7Mc-Ww-fmQ" id="Des-tM-pl9"/>
+                <outlet property="statusBarMode" destination="Tcc-XM-FFq" id="QxX-O0-evR"/>
+                <outlet property="updateIntervalPopup" destination="lPy-68-hIF" id="OWs-8E-26U"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="twh-wb-pUZ">
+                    <rect key="frame" x="88" y="206" width="304" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Select Your Region:" id="Krk-46-OHt">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1lj-04-DA8">
+                    <rect key="frame" x="192" y="29" width="92" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="HSV-JT-zBd"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6oW-bh-DCg">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="CancelPressed:" target="-2" id="rfC-19-eVx"/>
+                    </connections>
+                </button>
+                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HSE-q8-xue">
+                    <rect key="frame" x="88" y="170" width="305" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="azW-A0-fHv"/>
+                    </constraints>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="7Mc-Ww-fmQ">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <menu key="menu" id="71Q-C6-Del"/>
+                    </popUpButtonCell>
+                </popUpButton>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="o0L-Tt-Ubx">
+                    <rect key="frame" x="88" y="125" width="138" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="134" id="9Fj-0w-oRi"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Status Bar Mode:" id="jOE-6b-Wj2">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Xga-IQ-2Pb">
+                    <rect key="frame" x="304" y="29" width="92" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="CbU-lU-cGS"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qYA-zz-c6p">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                    </buttonCell>
+                    <connections>
+                        <action selector="savePreference:" target="-2" id="Sb0-Fo-ypk"/>
+                    </connections>
+                </button>
+                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YZt-hz-maE" userLabel="SelectMode">
+                    <rect key="frame" x="88" y="89" width="139" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="134" id="WFT-xY-O34"/>
+                    </constraints>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="Tcc-XM-FFq">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <menu key="menu" id="tL6-EL-txj"/>
+                    </popUpButtonCell>
+                </popUpButton>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ahv-9E-BHg">
+                    <rect key="frame" x="254" y="125" width="138" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="134" id="POh-vz-5A4"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="Update Interval:" id="1eU-IQ-RUS">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton toolTip="How often the app fetchs data in background." verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lPy-68-hIF" userLabel="SelectMode">
+                    <rect key="frame" x="254" y="89" width="139" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="134" id="CH2-Ja-eye"/>
+                    </constraints>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" toolTip="This sets how often the app update date in background." imageScaling="proportionallyDown" inset="2" id="egs-mU-q60">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <menu key="menu" id="8cB-EQ-raZ"/>
+                    </popUpButtonCell>
+                </popUpButton>
+            </subviews>
+            <constraints>
+                <constraint firstItem="o0L-Tt-Ubx" firstAttribute="top" secondItem="HSE-q8-xue" secondAttribute="bottom" constant="32" id="1sf-Yy-K8c"/>
+                <constraint firstItem="twh-wb-pUZ" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="48" id="9N5-jn-Vyn"/>
+                <constraint firstAttribute="trailing" secondItem="twh-wb-pUZ" secondAttribute="trailing" constant="90" id="ANX-F8-GNc"/>
+                <constraint firstItem="YZt-hz-maE" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="90" id="Ews-js-aUI"/>
+                <constraint firstItem="HSE-q8-xue" firstAttribute="top" secondItem="twh-wb-pUZ" secondAttribute="bottom" constant="12" id="HCq-tx-Eoa"/>
+                <constraint firstItem="lPy-68-hIF" firstAttribute="top" secondItem="Ahv-9E-BHg" secondAttribute="bottom" constant="12" id="J5O-4u-MpN"/>
+                <constraint firstAttribute="bottom" secondItem="1lj-04-DA8" secondAttribute="bottom" constant="36" id="NHR-uI-0Ef"/>
+                <constraint firstItem="YZt-hz-maE" firstAttribute="top" secondItem="o0L-Tt-Ubx" secondAttribute="bottom" constant="12" id="Rr8-M9-mBy"/>
+                <constraint firstItem="HSE-q8-xue" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="90" id="b1X-1Z-DIN"/>
+                <constraint firstAttribute="bottom" secondItem="Xga-IQ-2Pb" secondAttribute="bottom" constant="36" id="c54-Z8-6L3"/>
+                <constraint firstItem="Xga-IQ-2Pb" firstAttribute="leading" secondItem="1lj-04-DA8" secondAttribute="trailing" constant="32" id="cA9-8D-gWH"/>
+                <constraint firstItem="o0L-Tt-Ubx" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="90" id="f4g-wL-frA"/>
+                <constraint firstAttribute="trailing" secondItem="HSE-q8-xue" secondAttribute="trailing" constant="90" id="fkc-Zz-d0I"/>
+                <constraint firstItem="twh-wb-pUZ" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="90" id="gxk-Mu-hZO"/>
+                <constraint firstAttribute="trailing" secondItem="Ahv-9E-BHg" secondAttribute="trailing" constant="90" id="jT8-Me-tsb"/>
+                <constraint firstAttribute="trailing" secondItem="Xga-IQ-2Pb" secondAttribute="trailing" constant="90" id="lr0-go-YMr"/>
+                <constraint firstAttribute="trailing" secondItem="lPy-68-hIF" secondAttribute="trailing" constant="90" id="u2h-UZ-7bW"/>
+                <constraint firstItem="Ahv-9E-BHg" firstAttribute="top" secondItem="HSE-q8-xue" secondAttribute="bottom" constant="32" id="zNZ-0H-uTl"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="154"/>
+        </customView>
+    </objects>
+</document>
