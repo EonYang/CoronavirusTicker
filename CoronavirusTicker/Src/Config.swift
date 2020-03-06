@@ -10,11 +10,11 @@ import Cocoa
 
 class Config {
     
-    static let urlConfirmed = URL(string: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+    static let urlConfirmed = URL(string: "https://raw.githubusercontent.com/EonYang/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
     
-    static let urlDead = URL(string: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+    static let urlDead = URL(string: "https://raw.githubusercontent.com/EonYang/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
     
-    static let urlRecovered = URL(string: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+    static let urlRecovered = URL(string: "https://raw.githubusercontent.com/EonYang/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
     
     static var regions:[String]! = ["World"]
     static let China:[String]! = ["Mainland China","Taiwan","Hong Kong","Macau"]

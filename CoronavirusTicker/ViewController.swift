@@ -17,7 +17,7 @@ class ViewController: NSViewController {
         view.window?.center()
         view.window?.level = .floating
         let preferencesView = PreferencesView(frame: self.view.bounds)
-        preferencesView.add(toView: self.view)
+        preferencesView.insertTo(toView: self.view)
     }
     
     override func viewDidLoad() {

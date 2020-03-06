@@ -1,41 +1,27 @@
-# Coronavirus-in-status-bar
+# Coronavirus Ticker
 
-## This project is a personal practicing of creating an agent app on Mac OS.
+Coronavirus ticker displays latest statistics of the coronavirus outbreak in your menu bar.
 
-Congifurations are hard-coded. Currently it only displays statistical data of China, since I'm a Chinese.
+## It's a menu-bar app
 
-If you wanna use this app, you'll need to:
+<image src="docs/ScreenShots/ScreenShot_1.png" />
 
-Edit `AppDelegate.swift`:
+With this app, no need to google coronavirus + your country 20 times per day, since that is all shown in your menu bar.
 
-```
-    let global:Bool = false
-    let regions = ["China","Taiwan","Hong Kong","Macau"]
-    let refreshEvery:Int = 60
-```
-Set `global` to `true` if you care about the world.
+You can customize data of which country/region is shown and how often it updates.
 
-Set `global` to `false` and put countries that you care about in `regions`. 
+## Which region is your dearest
 
-Check the country names from [this repo](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv), from where I fetch data.
+<image src="docs/ScreenShots/ScreenShot_2.png" />
 
-## Denpendencies
+Coronavirus ticker is fully customizable.
 
-This project uses [Cocoapods](https://cocoapods.org/) to manage dependencies.
+## Data Source
 
-In your shell, navigate to the directory where `Podfile` lives, then type the follow command to install dependencies.
+This app fetches data from [this github repo](https://github.com/CSSEGISandData/COVID-19).
 
-```
-pod install
-```
+I believe this app is an appropriate use of the data. I made this to practice my Swift developing skills, and shared it with the world for free.
 
-## Happy hacking!
-Feel free to do anything to this project.
+## Terms of Use
 
-
-
-
-
-# CoronavirusTicker
-# CoronavirusTicker
-# CoronavirusTicker
+This app is built and shared for academic purpose only. Please feel free to fork or modify it to make it your own.

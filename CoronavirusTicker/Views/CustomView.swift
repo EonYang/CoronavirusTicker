@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class CustomView: NSView, LoadableView{
+class CustomView: NSView, Subview{
     
     // MARK: - IBOutlet Properties
 

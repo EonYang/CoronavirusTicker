@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CoronavirusTicker</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>71CB4E0120ADFE12B6B09EC0A6E1CAF89264665E</string>
+				<key>dateExpires</key>
+				<string>3/6/25</string>
+				<key>type</key>
+				<string>Developer ID Application</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>x86_64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>71CB4E0120ADFE12B6B09EC0A6E1CAF89264665E</string>
+						<key>dateExpires</key>
+						<string>3/6/25</string>
+						<key>type</key>
+						<string>Developer ID Application</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftCSV.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>76VRT679HQ</string>
+						<key>name</key>
+						<string>Yang Yang</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>x86_64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>71CB4E0120ADFE12B6B09EC0A6E1CAF89264665E</string>
+						<key>dateExpires</key>
+						<string>3/6/25</string>
+						<key>type</key>
+						<string>Developer ID Application</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftDate.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>76VRT679HQ</string>
+						<key>name</key>
+						<string>Yang Yang</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>com.apple.security.app-sandbox</key>
+				<true/>
+				<key>com.apple.security.files.user-selected.read-only</key>
+				<true/>
+				<key>com.apple.security.network.client</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>CoronavirusTicker.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>76VRT679HQ</string>
+				<key>name</key>
+				<string>Yang Yang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

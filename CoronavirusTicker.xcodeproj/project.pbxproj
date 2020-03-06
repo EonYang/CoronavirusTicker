@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2EAF9F24118E12001D6D6E /* Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2EAF9E24118E12001D6D6E /* Subview.swift */; };
 		2F77D132241028D3001ADC79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77D131241028D3001ADC79 /* AppDelegate.swift */; };
 		2F77D134241028D3001ADC79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77D133241028D3001ADC79 /* ViewController.swift */; };
 		2F77D136241028D4001ADC79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D135241028D4001ADC79 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		2F77D14A24102B35001ADC79 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77D14724102B35001ADC79 /* Tools.swift */; };
 		2F77D14B24102B35001ADC79 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77D14824102B35001ADC79 /* DataManager.swift */; };
 		2F77D15224102DA6001ADC79 /* PreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D14D24102DA6001ADC79 /* PreferencesView.xib */; };
-		2F77D15324102DA6001ADC79 /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77D14E24102DA6001ADC79 /* LoadableView.swift */; };
 		2F77D15424102DA6001ADC79 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77D14F24102DA6001ADC79 /* CustomView.swift */; };
 		2F77D15524102DA6001ADC79 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F77D15024102DA6001ADC79 /* PreferencesView.swift */; };
 		2F77D15624102DA6001ADC79 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D15124102DA6001ADC79 /* CustomView.xib */; };
@@ -23,12 +23,12 @@
 		2F77D15A24103106001ADC79 /* DataManager.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D14824102B35001ADC79 /* DataManager.swift */; };
 		2F77D15B24103106001ADC79 /* Tools.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D14724102B35001ADC79 /* Tools.swift */; };
 		2F77D15C24103106001ADC79 /* CustomView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D14F24102DA6001ADC79 /* CustomView.swift */; };
-		2F77D15D24103106001ADC79 /* LoadableView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D14E24102DA6001ADC79 /* LoadableView.swift */; };
 		2F77D15E24103106001ADC79 /* PreferencesView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 2F77D15024102DA6001ADC79 /* PreferencesView.swift */; };
 		E4041EEB2AC5F07C9637EA5A /* Pods_CoronavirusTicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC30C190B307B44A828A9F2 /* Pods_CoronavirusTicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F2EAF9E24118E12001D6D6E /* Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subview.swift; sourceTree = "<group>"; };
 		2F77D12E241028D3001ADC79 /* CoronavirusTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronavirusTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F77D131241028D3001ADC79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F77D133241028D3001ADC79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,6 @@
 		2F77D14724102B35001ADC79 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		2F77D14824102B35001ADC79 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2F77D14D24102DA6001ADC79 /* PreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesView.xib; sourceTree = "<group>"; };
-		2F77D14E24102DA6001ADC79 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
 		2F77D14F24102DA6001ADC79 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		2F77D15024102DA6001ADC79 /* PreferencesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		2F77D15124102DA6001ADC79 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
@@ -99,7 +98,7 @@
 			children = (
 				2F77D14F24102DA6001ADC79 /* CustomView.swift */,
 				2F77D15124102DA6001ADC79 /* CustomView.xib */,
-				2F77D14E24102DA6001ADC79 /* LoadableView.swift */,
+				2F2EAF9E24118E12001D6D6E /* Subview.swift */,
 				2F77D15024102DA6001ADC79 /* PreferencesView.swift */,
 				2F77D14D24102DA6001ADC79 /* PreferencesView.xib */,
 			);
@@ -197,7 +196,6 @@
 				2F77D15A24103106001ADC79 /* DataManager.swift in Resources */,
 				2F77D15B24103106001ADC79 /* Tools.swift in Resources */,
 				2F77D15C24103106001ADC79 /* CustomView.swift in Resources */,
-				2F77D15D24103106001ADC79 /* LoadableView.swift in Resources */,
 				2F77D15E24103106001ADC79 /* PreferencesView.swift in Resources */,
 				2F77D15224102DA6001ADC79 /* PreferencesView.xib in Resources */,
 				2F77D15624102DA6001ADC79 /* CustomView.xib in Resources */,
@@ -255,9 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F77D15324102DA6001ADC79 /* LoadableView.swift in Sources */,
 				2F77D15524102DA6001ADC79 /* PreferencesView.swift in Sources */,
 				2F77D134241028D3001ADC79 /* ViewController.swift in Sources */,
+				2F2EAF9F24118E12001D6D6E /* Subview.swift in Sources */,
 				2F77D14B24102B35001ADC79 /* DataManager.swift in Sources */,
 				2F77D15424102DA6001ADC79 /* CustomView.swift in Sources */,
 				2F77D132241028D3001ADC79 /* AppDelegate.swift in Sources */,
@@ -402,6 +400,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 76VRT679HQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = CoronavirusTicker/Info.plist;
@@ -409,6 +408,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = yangyang.CoronavirusTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -424,6 +424,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 76VRT679HQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = CoronavirusTicker/Info.plist;
@@ -431,6 +432,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.01;
 				PRODUCT_BUNDLE_IDENTIFIER = yangyang.CoronavirusTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

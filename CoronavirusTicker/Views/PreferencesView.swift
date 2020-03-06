@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class PreferencesView: NSView, LoadableView{
+class PreferencesView: NSView, Subview{
     
     // MARK: - IBOutlet Properties
     
