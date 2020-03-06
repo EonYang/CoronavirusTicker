@@ -2,6 +2,8 @@
 
 Coronavirus ticker displays latest statistics of the coronavirus outbreak in your menu bar.
 
+### [Download it](https://github.com/EonYang/CoronavirusTicker/releases/download/v1.01-lw/CoronavirusTicker.app_v1.01.zip)
+
 ## It's a menu-bar app
 
 <image src="docs/ScreenShots/ScreenShot_1.png" />
@@ -25,3 +27,4 @@ I believe this app is an appropriate use of the data. I made this to practice my
 ## Terms of Use
 
 This app is built and shared for academic purpose only. Please feel free to fork or modify it to make it your own.
+:
