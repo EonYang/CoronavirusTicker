@@ -1,0 +1,181 @@
+2020-03-06 03:18:57 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9401f51b70; archive(resolved)='<IDEArchive: 0x7f9408a84a70>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9401f51b70; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9401f78460; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9401dafea0; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9401dc6bc0; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9401863cb0; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f940186bf50; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9401dcaec0; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f94123c1d00; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f941403dde0; teamID='76VRT679HQ', teamName='Yang Yang', teamType='Individual', username='yy2473@nyu.edu', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7f9401c42c20; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='(null)'>
+	<IDEDistributionContext: 0x7f9401858b20; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='<IDEDistributionMethodDeveloperID: 0x7f93fb5ec930>', team='(null)'>
+	<IDEDistributionContext: 0x7f9401f08e30; archive = '<IDEArchive: 0x7f9408a84a70>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9401f51b70>
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionCopyItemStep
+2020-03-06 03:18:57 +0000  Running /usr/bin/ditto '-V' '/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app'
+2020-03-06 03:18:57 +0000  >>> Copying /Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app 
+2020-03-06 03:18:57 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2020-03-06 03:18:57 +0000  5118 bytes for ./Contents/_CodeSignature/CodeResources
+2020-03-06 03:18:57 +0000  copying file ./Contents/MacOS/CoronavirusTicker ... 
+2020-03-06 03:18:57 +0000  109040 bytes for ./Contents/MacOS/CoronavirusTicker
+2020-03-06 03:18:57 +0000  copying file ./Contents/Resources/CustomView.nib ... 
+2020-03-06 03:18:57 +0000  13794 bytes for ./Contents/Resources/CustomView.nib
+2020-03-06 03:18:57 +0000  copying file ./Contents/Resources/PreferencesView.nib ... 
+2020-03-06 03:18:57 +0000  14601 bytes for ./Contents/Resources/PreferencesView.nib
+2020-03-06 03:18:57 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2020-03-06 03:18:57 +0000  78740 bytes for ./Contents/Resources/AppIcon.icns
+2020-03-06 03:18:57 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2020-03-06 03:18:57 +0000  4739 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+2020-03-06 03:18:57 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2020-03-06 03:18:57 +0000  1319 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+2020-03-06 03:18:57 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2020-03-06 03:18:57 +0000  279 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/PreferencesID.nib ... 
+2020-03-06 03:18:57 +0000  2306 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/PreferencesID.nib
+2020-03-06 03:18:57 +0000  copying file ./Contents/Resources/Assets.car ... 
+2020-03-06 03:18:57 +0000  740344 bytes for ./Contents/Resources/Assets.car
+2020-03-06 03:18:57 +0000  copying symlink ./Contents/Frameworks/SwiftCSV.framework/Resources ... 
+2020-03-06 03:18:57 +0000  linked ./Contents/Frameworks/SwiftCSV.framework/Resources
+2020-03-06 03:18:57 +0000  copying file ./Contents/Frameworks/SwiftCSV.framework/Versions/A/_CodeSignature/CodeResources ... 
+2020-03-06 03:18:57 +0000  2514 bytes for ./Contents/Frameworks/SwiftCSV.framework/Versions/A/_CodeSignature/CodeResources
+2020-03-06 03:18:57 +0000  copying file ./Contents/Frameworks/SwiftCSV.framework/Versions/A/Resources/Info.plist ... 
+2020-03-06 03:18:57 +0000  1282 bytes for ./Contents/Frameworks/SwiftCSV.framework/Versions/A/Resources/Info.plist
+2020-03-06 03:18:57 +0000  copying file ./Contents/Frameworks/SwiftCSV.framework/Versions/A/SwiftCSV ... 
+2020-03-06 03:18:57 +0000  186640 bytes for ./Contents/Frameworks/SwiftCSV.framework/Versions/A/SwiftCSV
+2020-03-06 03:18:57 +0000  copying symlink ./Contents/Frameworks/SwiftCSV.framework/Versions/Current ... 
+2020-03-06 03:18:57 +0000  linked ./Contents/Frameworks/SwiftCSV.framework/Versions/Current
+2020-03-06 03:18:57 +0000  copying symlink ./Contents/Frameworks/SwiftCSV.framework/SwiftCSV ... 
+2020-03-06 03:18:57 +0000  linked ./Contents/Frameworks/SwiftCSV.framework/SwiftCSV
+2020-03-06 03:18:57 +0000  copying symlink ./Contents/Frameworks/SwiftDate.framework/Resources ... 
+2020-03-06 03:18:57 +0000  linked ./Contents/Frameworks/SwiftDate.framework/Resources
+2020-03-06 03:18:57 +0000  copying file ./Contents/Frameworks/SwiftDate.framework/Versions/A/_CodeSignature/CodeResources ... 
+2020-03-06 03:18:57 +0000  2514 bytes for ./Contents/Frameworks/SwiftDate.framework/Versions/A/_CodeSignature/CodeResources
+2020-03-06 03:18:57 +0000  copying file ./Contents/Frameworks/SwiftDate.framework/Versions/A/Resources/Info.plist ... 
+2020-03-06 03:18:57 +0000  1286 bytes for ./Contents/Frameworks/SwiftDate.framework/Versions/A/Resources/Info.plist
+2020-03-06 03:18:57 +0000  copying file ./Contents/Frameworks/SwiftDate.framework/Versions/A/SwiftDate ... 
+2020-03-06 03:18:57 +0000  3643440 bytes for ./Contents/Frameworks/SwiftDate.framework/Versions/A/SwiftDate
+2020-03-06 03:18:57 +0000  copying symlink ./Contents/Frameworks/SwiftDate.framework/Versions/Current ... 
+linked ./Contents/Frameworks/SwiftDate.framework/Versions/Current
+copying symlink ./Contents/Frameworks/SwiftDate.framework/SwiftDate ... 
+linked ./Contents/Frameworks/SwiftDate.framework/SwiftDate
+copying file ./Contents/Info.plist ... 
+2020-03-06 03:18:57 +0000  1797 bytes for ./Contents/Info.plist
+2020-03-06 03:18:57 +0000  copying file ./Contents/PkgInfo ... 
+2020-03-06 03:18:57 +0000  8 bytes for ./Contents/PkgInfo
+2020-03-06 03:18:57 +0000  /usr/bin/ditto exited with 0
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-03-06 03:18:57 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9401f792c0; bundleID='org.cocoapods.SwiftCSV', path='<DVTFilePath:0x7f94018908b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9401f5c190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94018f7e60; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftCSV', executablePath='<DVTFilePath:0x7f940184c190:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A/SwiftCSV'>', hardenedRuntime='0'>'>
+2020-03-06 03:18:57 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9401595af0; bundleID='org.cocoapods.SwiftDate', path='<DVTFilePath:0x7f93f6e8a1b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f93fc03d380; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9401f67c30; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftDate', executablePath='<DVTFilePath:0x7f94018f8f40:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A/SwiftDate'>', hardenedRuntime='0'>'>
+2020-03-06 03:18:57 +0000  Skipping profile for item: <IDEDistributionItem: 0x7f9401dd0b70; bundleID='yangyang.CoronavirusTicker', path='<DVTFilePath:0x7f94003a0ff0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f940180bbc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9401f69c20; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}', teamID='76VRT679HQ', identifier='yangyang.CoronavirusTicker', executablePath='<DVTFilePath:0x7f93fe36caf0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/MacOS/CoronavirusTicker'>', hardenedRuntime='1'>'>
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionSymbolsStep
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionAppThinningStep
+2020-03-06 03:18:57 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionArchThinningStep
+2020-03-06 03:18:57 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A/SwiftCSV' '-verify_arch' 'arm64e'
+2020-03-06 03:18:57 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-03-06 03:18:57 +0000  Skipping architecture thinning for item "SwiftCSV" because arch "arm64e" wasn't found
+2020-03-06 03:18:57 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A/SwiftDate' '-verify_arch' 'arm64e'
+2020-03-06 03:18:57 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-03-06 03:18:57 +0000  Skipping architecture thinning for item "SwiftDate" because arch "arm64e" wasn't found
+2020-03-06 03:18:57 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/MacOS/CoronavirusTicker' '-verify_arch' 'arm64e'
+2020-03-06 03:18:57 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-03-06 03:18:57 +0000  Skipping architecture thinning for item "CoronavirusTicker" because arch "arm64e" wasn't found
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionODRStep
+2020-03-06 03:18:57 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-03-06 03:18:57 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9401f792c0; bundleID='org.cocoapods.SwiftCSV', path='<DVTFilePath:0x7f94018908b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9401f5c190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f93fdd752f0; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftCSV', executablePath='<DVTFilePath:0x7f940184c190:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A/SwiftCSV'>', hardenedRuntime='0'>'>
+2020-03-06 03:18:57 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f9401595af0; bundleID='org.cocoapods.SwiftDate', path='<DVTFilePath:0x7f93f6e8a1b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f93fc03d380; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f94018f7e60; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftDate', executablePath='<DVTFilePath:0x7f94018f8f40:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A/SwiftDate'>', hardenedRuntime='0'>'>
+2020-03-06 03:18:57 +0000  Running /usr/bin/xattr '-crs' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app'
+2020-03-06 03:18:58 +0000  /usr/bin/xattr exited with 0
+2020-03-06 03:18:58 +0000  Processing step: IDEDistributionCodesignStep
+2020-03-06 03:18:58 +0000  Entitlements for <IDEDistributionItem: 0x7f9401f792c0; bundleID='org.cocoapods.SwiftCSV', path='<DVTFilePath:0x7f94018908b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9401f5c190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f940185e4a0; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftCSV', executablePath='<DVTFilePath:0x7f940184c190:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A/SwiftCSV'>', hardenedRuntime='0'>'>: {
+}
+2020-03-06 03:18:58 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9401f792c0; bundleID='org.cocoapods.SwiftCSV', path='<DVTFilePath:0x7f94018908b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9401f5c190; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9401d98db0; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftCSV', executablePath='<DVTFilePath:0x7f940184c190:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A/SwiftCSV'>', hardenedRuntime='0'>'> to: /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/entitlements~~~CuHCJ1
+2020-03-06 03:18:58 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '71CB4E0120ADFE12B6B09EC0A6E1CAF89264665E' '--entitlements' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/entitlements~~~CuHCJ1' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "76VRT679HQ" ))' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A'
+2020-03-06 03:18:58 +0000  /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A: replacing existing signature
+2020-03-06 03:18:58 +0000  /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftCSV.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [org.cocoapods.SwiftCSV]
+2020-03-06 03:18:58 +0000  /usr/bin/codesign exited with 0
+2020-03-06 03:18:58 +0000  Entitlements for <IDEDistributionItem: 0x7f9401595af0; bundleID='org.cocoapods.SwiftDate', path='<DVTFilePath:0x7f93f6e8a1b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f93fc03d380; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f940210fdc0; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftDate', executablePath='<DVTFilePath:0x7f94018f8f40:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A/SwiftDate'>', hardenedRuntime='0'>'>: {
+}
+2020-03-06 03:18:58 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9401595af0; bundleID='org.cocoapods.SwiftDate', path='<DVTFilePath:0x7f93f6e8a1b0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f93fc03d380; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9401f86310; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='(null)', teamID='76VRT679HQ', identifier='org.cocoapods.SwiftDate', executablePath='<DVTFilePath:0x7f94018f8f40:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A/SwiftDate'>', hardenedRuntime='0'>'> to: /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/entitlements~~~kjsnCl
+2020-03-06 03:18:58 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '71CB4E0120ADFE12B6B09EC0A6E1CAF89264665E' '--entitlements' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/entitlements~~~kjsnCl' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "76VRT679HQ" ))' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A'
+2020-03-06 03:18:58 +0000  /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A: replacing existing signature
+2020-03-06 03:18:58 +0000  /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app/Contents/Frameworks/SwiftDate.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [org.cocoapods.SwiftDate]
+2020-03-06 03:18:58 +0000  /usr/bin/codesign exited with 0
+2020-03-06 03:18:58 +0000  Entitlements for <IDEDistributionItem: 0x7f9401dd0b70; bundleID='yangyang.CoronavirusTicker', path='<DVTFilePath:0x7f94003a0ff0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f940180bbc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f940079f340; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}', teamID='76VRT679HQ', identifier='yangyang.CoronavirusTicker', executablePath='<DVTFilePath:0x7f93fe36caf0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/MacOS/CoronavirusTicker'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}
+2020-03-06 03:18:58 +0000  Writing entitlements for <IDEDistributionItem: 0x7f9401dd0b70; bundleID='yangyang.CoronavirusTicker', path='<DVTFilePath:0x7f94003a0ff0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f940180bbc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9401862da0; name='Apple Development: yy2473@nyu.edu (ACD7KN9SGD)', hash='78ECAECB96256F684FE19B9EEAA5C898AEF50C40', serialNumber='273FA92F1FD66392', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-03-05 01:09:37 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+}', teamID='76VRT679HQ', identifier='yangyang.CoronavirusTicker', executablePath='<DVTFilePath:0x7f93fe36caf0:'/Users/YANG/Library/Developer/Xcode/Archives/2020-03-05/CoronavirusTicker 3-5-20, 10.18 PM.xcarchive/Products/Applications/CoronavirusTicker.app/Contents/MacOS/CoronavirusTicker'>', hardenedRuntime='1'>'> to: /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/entitlements~~~TvIkQd
+2020-03-06 03:18:58 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '71CB4E0120ADFE12B6B09EC0A6E1CAF89264665E' '--entitlements' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/entitlements~~~TvIkQd' '--preserve-metadata=identifier,flags,runtime' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "76VRT679HQ" ))' '/var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app'
+2020-03-06 03:18:58 +0000  /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app: replacing existing signature
+2020-03-06 03:18:58 +0000  /var/folders/xg/_jjjk3gd04b14psk9y1mbb_80000gn/T/XcodeDistPipeline.~~~Kf13tS/Root/Applications/CoronavirusTicker.app: signed app bundle with Mach-O thin (x86_64) [yangyang.CoronavirusTicker]
+2020-03-06 03:18:58 +0000  /usr/bin/codesign exited with 0
+2020-03-06 03:18:58 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-03-06 03:18:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-03-06 03:18:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-03-06 03:18:58 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-03-06 03:18:58 +0000  Processing step: IDEDistributionSkipPackagingStep
+2020-03-06 03:18:58 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-03-06 03:18:58 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-03-06 03:18:58 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-03-06 03:18:58 +0000  Processing step: IDEDistributionCreateManifestStep
+2020-03-06 03:18:58 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
