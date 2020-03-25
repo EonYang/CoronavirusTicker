@@ -11,15 +11,16 @@ import Cocoa
 class CustomView: NSView, Subview{
     
     // MARK: - IBOutlet Properties
-
+    
     @IBOutlet weak var labelConfirmed: NSTextField!
-
-    @IBOutlet weak var labelDead : NSTextField!
-       
-    @IBOutlet weak var labelRecovered : NSTextField!
+    
+    @IBOutlet weak var labelDeath : NSTextField!
+    
+    @IBOutlet weak var labelConfirmedIncrement: NSTextField!
+    
+    @IBOutlet weak var labelDeathIncrement: NSTextField!
     
     
-
     
     override init(frame frameRect: NSRect) {
         super.init(frame: frameRect)
@@ -31,4 +32,6 @@ class CustomView: NSView, Subview{
     }
     
     
+    
 }
+

@@ -13,11 +13,11 @@ class Config {
     static let myGit = "https://raw.githubusercontent.com/EonYang/"
     static let CSSEGISandData = "https://raw.githubusercontent.com/CSSEGISandData/"
     
-    static let urlConfirmed = URL(string: "\(CSSEGISandData)COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+    static let urlConfirmed = URL(string: "\(CSSEGISandData)COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
     
-    static let urlDead = URL(string:  "\(CSSEGISandData)COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
+    static let urlDeath = URL(string:  "\(CSSEGISandData)COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
     
-    static let urlRecovered = URL(string:  "\(CSSEGISandData)COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+//    static let urlRecovered = URL(string:  "\(CSSEGISandData)COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
     
     static var regions:[String]! = ["World"]
     static let China:[String]! = ["Mainland China","Taiwan","Hong Kong","Macau"]

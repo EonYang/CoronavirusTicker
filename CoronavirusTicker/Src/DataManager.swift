@@ -38,7 +38,7 @@ class DataManager: NSObject {
     static func setLastUpdateDate(_ lastDay:String!,_ menuItem: NSMenuItem!) {
         let now = Date()
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            menuItem.title = "Till " + lastDay + ", updated " + now.toRelative(style: RelativeFormatter.defaultStyle(), locale: Locales.english)
+            menuItem.title = "Untill " + lastDay + ", updated " + now.toRelative(style: RelativeFormatter.defaultStyle(), locale: Locales.english)
         }
     }
     static func setNumber(_ lable:NSTextField!, _ number:Int!) {
@@ -47,29 +47,51 @@ class DataManager: NSObject {
         }
     }
     
-    static func getSum(url:URL, completionHandeler: @escaping (_ sum: Int?, _ lastDay: String?) -> Void ){
-        var r: Int! = 0
+    static func setText(_ lable:NSTextField!, _ text:String!) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5){
+            lable.stringValue = text
+        }
+    }
+    
+    static func getSum(url:URL, completionHandeler: @escaping (_ sum: Int?, _ lastDay: String?, _ add: Array<String>?) -> Void ){
+        var sum = [0,0]
+
         var dataString:String?
         let task = URLSession.shared.dataTask(with: url) {(data, response, error) in
             guard let data = data else { return }
             dataString = String(data: data, encoding: .utf8)!
             do {
                 let csv: CSV = try CSV(string: dataString!)
-                if let lastDay:String = csv.header.last {
-                    for line in csv.namedRows {
-                        guard let lineLastDay = Int(line[lastDay]!) else {
-                            return
-                        }
-                        if Config.regions.contains("World") {
-                            r += lineLastDay
-                        }
-                        else if Config.regions.contains(where: line["Country/Region"]!.contains)
-                        {
-                            r += lineLastDay
+                let lastTwoDays = Array(csv.header.suffix(2))
+                
+                
+                for (index, date) in lastTwoDays.enumerated() {
+                    print(index)
+                    print(date)
+                    
+                    if let date:String = lastTwoDays[index] {
+                        for line in csv.namedRows {
+                            guard let val = Int(line[date]!) else {
+                                print( " Int(line[date]!) is nil" )
+                                continue
+                            }
+                            if Config.regions.contains("World") {
+                                sum[index] += val
+                            }
+                            else if Config.regions.contains(where: line["Country/Region"]!.contains)
+                            {
+                                sum[index] += val
+                            }
                         }
                     }
-                    completionHandeler(r!, lastDay)
+                    
+    
                 }
+                let add = ["+" + String(sum[1]-sum[0]), "+" + String(((sum[1]-sum[0])*100)/sum[1]) + "%"]
+                print(add)
+                print(sum[0])
+                print(sum[1])
+                completionHandeler(sum[1], lastTwoDays[1], add)
             } catch {
             }
         }
