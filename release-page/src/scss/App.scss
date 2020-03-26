@@ -1,0 +1,173 @@
+@import './Mixins.scss';
+
+$sm-min: 560px;
+$md-min: 768px;
+
+$clearBlack:hsla(0, 0, 0, 0.45);
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-image {
+  z-index: -99;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-image: url("/images/bg.png");
+  filter: blur(16px);
+  -webkit-filter: blur(16px);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#laptop-bg {
+  z-index: -1;
+  margin-top: 30%;
+  background-image: url("/images/laptop.png");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include break($sm-min) {
+    background-image: none;
+    margin-top: 10%;
+  }
+}
+
+
+
+
+
+#laptop {
+  z-index: -1;
+  margin: auto;
+  display: none;
+
+  @include break($sm-min) {
+    width: 100%;
+    margin-top: 20%;
+    display: block;
+  }
+
+  @include break($md-min) {
+    width: 80%;
+    margin-top: 15%;
+    display: block;
+  }
+}
+
+#large-title {
+  color: white;
+  width: 100%;
+  margin-top: 30vh;
+  font-size: 4em;
+
+  @include break($sm-min) {
+    margin-top: 15%;
+    font-size: 4em;
+    margin-bottom: 2vw;
+  }
+
+  @include break($md-min) {
+    margin-top: 5%;
+    font-size: 6em;
+    margin-bottom: 3vw;
+  }
+
+}
+
+#download-btn {
+  position: absolute;
+  top: 30vw;
+  left: 0;
+  width: 100%;
+}
+
+.detail-section {
+
+
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0e0e0e;
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  padding: 10%;
+
+  .sec-1 {
+    @include clearFix();
+    display: block;
+    width: 100%;
+
+    p{
+      margin-top: 5%;
+      width: 100%;
+      float: left;
+      @include break($md-min){
+        width: 33%;
+      }
+    }
+    img{
+      width: 100%;
+      float: right;
+      border-radius: 5px;
+      @include break($md-min){
+        width: 50%;
+      }
+    }
+  }
+
+
+  .sec-2 {
+    margin-top: 20%;
+    @include clearFix();
+    display: block;
+    width: 100%;
+
+    p{
+      margin-top: 5%;
+      width: 100%;
+      float: right;
+      @include break($md-min){
+        width: 33%;
+      }
+    }
+    img{
+      width: 100%;
+      float: left;
+
+      border-radius: 5px;
+      @include break($md-min){
+        width: 50%;
+      }
+    }
+  }
+}
+
+#footer{
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 10%;
+  h3{
+    font-weight: 200;
+    margin-top: 20%;
+    @include break($md-min){
+      margin-top: 10%;
+    }
+  }
+  h1{
+    margin-bottom: 5%;
+  }
+}

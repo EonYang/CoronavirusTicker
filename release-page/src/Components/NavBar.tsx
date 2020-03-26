@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, Router } from 'react-router-dom';
 import P5Logo from './P5Logo';
 
 interface link {
@@ -16,7 +15,7 @@ const NavBar = (props: { navData: navData }) => {
 
     return (
         <>
-            <nav className="navbar bg-none navbar-dark navbar-expand-sm" id="header">
+            <nav className="navbar bg-none navbar-dark navbar-expand-sm fixed-top" id="header">
                 <div className="container-fluid">
                     <a className="navbar-brand d-flex" style={{ height: '80px' }} href={props.navData.brand.link}>
                         <P5Logo />

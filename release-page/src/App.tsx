@@ -1,17 +1,18 @@
 import React from 'react';
 import 'normalize.css';
-import './App.scss';
+import './scss/App.scss';
 import 'jquery/dist/jquery';
-import 'popper.js/dist/umd/popper'
+import 'popper.js/dist/umd/popper';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
-import NavBar from './Components/NavBar'
-import Nav from './Components/nav';
-
+import NavBar from './Components/NavBar';
+import LaotopMockup from './Components/LaptopMockup';
+import FeatureSection from './Components/FeatureSection';
+import Footer from './Components/Footer';
 const App = () => {
   const navData = {
     brand: {
-      name: "COVID-20 Ticker",
+      name: " ",
       link: "#"
     },
     links: [{
@@ -22,14 +23,17 @@ const App = () => {
       link: "https://github.com/EonYang/CoronavirusTicker"
     }, {
       name: "About",
-      link: "#about"
+      link: "#footer"
     }]
   }
 
   return (
-    <div className="App">
-      <div className="bg-image"></div>
+    <div className="App ">
       <NavBar navData={navData} />
+      <div className="bg-image"></div>
+      <LaotopMockup />
+      <FeatureSection />
+      <Footer />
     </div>
   );
 }
