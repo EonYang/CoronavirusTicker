@@ -87,12 +87,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         updateNumbers ()
         DataManager.getRegions()
         
-        
-        
-        
-        
-        
-        
     }
     
     func updateNumbers () {
@@ -118,9 +112,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        
-    }
+    func applicationDidFinishLaunching(_ aNotification: Notification) {}
     
     
     func applicationWillTerminate(_ aNotification: Notification) {}
@@ -134,6 +126,7 @@ extension AppDelegate: NSMenuDelegate {
         
         flipTimer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(self.flipIncrementLabel), userInfo: nil, repeats: true)
         RunLoop.main.add(flipTimer!, forMode: .common)
+        self.flipIncrementLabel()
         
     }
     func menuDidClose(_ menu: NSMenu) {
