@@ -1,8 +1,9 @@
 import React from 'react';
+import laptopMockup from '../images/laptop.png';
 
 const LaotopMockup = () => (
     <div id="laptop-bg" className="w-100 mx-auto">
-        <img id="laptop" src={process.env.PUBLIC_URL + "/images/laptop.png"} alt="a laptop" />
+        <img id="laptop" src={laptopMockup} alt="a laptop" />
         <div id="download-btn" >
             <h1 id="large-title" className="text-center w-100">COVID-19 Ticker</h1>
             <div className="text-center w-100">
